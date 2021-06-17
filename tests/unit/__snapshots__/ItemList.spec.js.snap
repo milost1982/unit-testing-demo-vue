@@ -1,5 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ListItem Component renders header 1`] = `
+<div class="item-list-component">
+  <h2>List of items:</h2>
+  <item-stub value="[object Object]"></item-stub>
+  <item-stub value="[object Object]"></item-stub>
+  <item-stub value="[object Object]"></item-stub>
+</div>
+`;
+
 exports[`ListItem Component renders items passed as props 1`] = `
 <div class="item-list-component">
   <h2>List of items:</h2>

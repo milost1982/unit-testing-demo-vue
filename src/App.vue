@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Simple component</router-link> |
-      <router-link to="/nested">Nested component</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/example1">Example 1</router-link> |
+      <router-link to="/example2">Example 2</router-link> |
+      <router-link to="/example3">Example 3</router-link> |
+      <router-link to="/example4">Example 4</router-link>
     </div>
     <router-view/>
   </div>

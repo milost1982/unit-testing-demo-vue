@@ -5,6 +5,7 @@
     Message: <input type="text" v-model="text">
 
     <RevealContent class="reveal-component"/>
+    <GithubProfile />
   </div>
 </template>
 
@@ -12,16 +13,18 @@
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
 import RevealContent from '@/components/RevealContent.vue'
+import GithubProfile from '@/components/GithubProfile.vue'
 
 export default {
   name: 'home',
   components: {
     HelloWorld,
-    RevealContent
+    RevealContent,
+    GithubProfile
   },
   data () {
     return {
-      text: 'Welcome to Your Vue.js App',
+      text: 'Welcome to Your Vue.js App'
     }
   }
 }
@@ -33,13 +36,5 @@ export default {
 .home input {
   margin-top: 10px;
   width: 300px;
-}
-
-.reveal-component {
-  border: 2px dashed darkred;
-  margin: 0 auto;
-  padding: 10px;
-  max-width: 600px;
-  margin-top: 40px;
 }
 </style>

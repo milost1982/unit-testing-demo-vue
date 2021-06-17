@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GithubProfile Component renders proper html from github profile data 1`] = `
+<div class="github-profile-component">
+  <div><img alt="Avatar" height="200" width="200" src="https://avatars.githubusercontent.com/u/150330?v=4" class="avatar">
+    <div class="description"><span class="profile-name">Kyle Simpson</span> <span class="profile-login">Username: getify</span> <span class="profile-company">Company: Getify Solutions</span> <span class="profile-location">Location: Austin, TX</span> <span class="profile-blog">Blog: <a href="http://getify.me" target="_blank">http://getify.me</a></span> <span class="profile-url"><a href="https://github.com/getify" target="_blank">Github Page</a></span></div>
+  </div>
+  <!---->
+</div>
+`;
